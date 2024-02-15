@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>About Section</h1>
+        <h1>Tech Stack Section</h1>
     </div>
 </template>
 

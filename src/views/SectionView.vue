@@ -1,6 +1,6 @@
 <template>
   <div class="section">
-    <h1>This is an Section page</h1>
+    <h1 class="font-semibold text-[50px] sm:text-[100px] tracking-wider">Section page</h1>
   </div>
 </template>
 
@@ -10,6 +10,8 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: #d3fbff;
   }
 }
 </style>

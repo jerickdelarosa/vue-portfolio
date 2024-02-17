@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-
 /* NAVIGATION */
 import MainNav from '@/components/navigation/MainNav.vue'
+
 /* COMPONENTS */
-import HomeView from '../views/HomeView.vue'
+import HomeView from '@/views/HomeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,6 +29,14 @@ const router = createRouter({
       component: () => import('../views/SectionView.vue'),
       meta: {
         title: 'Section',
+      }
+    },
+    {
+        path: '/:catchAll(.*)*',
+        name: 'page-not-found',
+        component: () => import('../views/errors/PageNotFound.vue'),
+      meta: {
+        title: 'Page Not Found'
       }
     }
   ],

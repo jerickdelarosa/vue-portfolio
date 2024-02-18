@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-
 /* NAVIGATION */
 import MainNav from '@/components/navigation/MainNav.vue'
+
 /* COMPONENTS */
-import HomeView from '../views/HomeView.vue'
+import HomeView from '@/views/HomeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,14 +21,22 @@ const router = createRouter({
       }
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/section',
+      name: 'section',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue'),
+      component: () => import('../views/SectionView.vue'),
       meta: {
-        title: 'About',
+        title: 'Section',
+      }
+    },
+    {
+        path: '/:catchAll(.*)*',
+        name: 'page-not-found',
+        component: () => import('../views/errors/PageNotFound.vue'),
+      meta: {
+        title: 'Page Not Found'
       }
     }
   ],

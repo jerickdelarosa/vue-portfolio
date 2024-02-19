@@ -6,10 +6,7 @@
                     <p class="text-2xl font-semibold">Tech Stack</p>
                 </div>
                 <div class="p-5 flex justify-center items-center gap-5">
-                    <p>12345</p>
-                    <p>12345</p>
-                    <p>12345</p>
-                    <p>12345</p>
+                    
                 </div>
             </div>
         </div>
@@ -17,6 +14,9 @@
 </template>
 
 <script setup>
+
+
+
 
 </script>
 

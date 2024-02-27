@@ -32,7 +32,7 @@
                                 </svg>
                             </span>
                             <p class="text-2xl font-extrabold text-dark-grey-900">Phone</p>
-                            <p class="text-base leading-7 text-gray-600">Reach out to us by phone</p>
+                            <p class="text-base leading-7 text-gray-600">Reach me out by phone</p>
                             <a class="text-lg font-bold text-purple-blue-500" href="tel:+516-486-5135">(+65) 945 3164 268</a>
                         </div>
                         <div class="flex flex-col items-center gap-3 px-4 py-8 bg-white rounded-3xl shadow-main">

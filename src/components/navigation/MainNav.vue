@@ -1,5 +1,5 @@
 <template>
-  <Disclosure as="nav" class="bg-white shadow-md fixed w-[100vw]" v-slot="{ open }">
+  <Disclosure as="nav" class="bg-white shadow-md fixed w-[100vw] z-50" v-slot="{ open }">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -19,7 +19,7 @@
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <a v-for="item in navigation" :key="item.name"
-              :href="item.href" :class="['text-gray-700 hover:border-b-gray-500 hover:text-gray-900 border-b-transparent', 'transition-all ease-in-out border-b-2 px-4 py-2 text-md font-bold']">{{ item.name }}</a>
+              :href="item.href" :class="['text-gray-700 hover:border-b-[#79B4B7] hover:text-gray-900 border-b-transparent', 'transition-all ease-in-out border-b-[3px] px-4 py-2 text-md font-bold']">{{ item.name }}</a>
             </div>
           </div>
         </div>

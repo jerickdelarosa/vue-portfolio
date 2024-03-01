@@ -1,10 +1,11 @@
 <template>
-    <section id="techstack">
-        <div class="w-100 bg-slate-200">
-            <div class="max-w-full px-16 py-8">
-                <div class="px-5 py-2 text-center">
-                    <p class="text-xl font-semibold">Tech Stack</p>
-                </div>
+    <section id="techstack" class="bg-[#FEFBF3] antialiased">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+            <div class="max-w-2xl mx-auto text-center mb-5">
+                <h2 class="text-3xl font-extrabold leading-tight tracking-tight text-gray-700 sm:text-4xl">
+                    Tech Stack
+                </h2>
+            </div>
                 <div class="p-5 flex justify-center items-center">
                     <ul class="flex flex-wrap list-none gap-10 justify-center">
                         <li class="stack--wrapper flex justify-center gap-3">
@@ -40,7 +41,6 @@
                     </ul>
                 </div>
             </div>
-        </div>
     </section>
 </template>
 

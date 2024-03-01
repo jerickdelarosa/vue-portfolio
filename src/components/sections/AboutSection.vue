@@ -1,5 +1,5 @@
 <template>
-    <section id="contact" class="bg-inherit antialiased">
+    <section id="about" class="bg-inherit antialiased">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
             <div class="py-16 bg-red">  
                 <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">

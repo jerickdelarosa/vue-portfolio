@@ -10,7 +10,7 @@
                 </p>
             </div>
             <div class="container flex flex-col mx-auto">
-                <div class="w-full draggable">
+                <div class="w-full">
                     <div class="container flex flex-col items-center gap-16 mx-auto my-6">
                         <div class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
                             <div class="flex flex-col items-center gap-3 px-4 py-8 bg-white rounded-3xl shadow-main">

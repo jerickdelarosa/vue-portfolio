@@ -39,3 +39,6 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+### Color Palette (https://colorhunt.co/palette/79b4b7fefbf3f8f0df9d9d9d)
+

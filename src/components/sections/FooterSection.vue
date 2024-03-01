@@ -1,7 +1,7 @@
 <template>
     <footer class="bg-gray-700 py-5">
-        <div class="h-[15vh] w-100 flex items-center">
-            <div class="container mx-auto flex flex-col items-center justify-center sm:flex-row sm:justify-between gap-6">
+        <div class="h-[10rem] w-100 flex items-center justify-center">
+            <div class="container md:mx-12 mx-auto flex flex-col items-center justify-center sm:flex-row sm:justify-between gap-6">
                 <div>
                     <span class="text-sm text-slate-50 font-semibold">Copyright © 2024. All rights are reserved</span>
                 </div>

@@ -24,9 +24,9 @@ export const navLinks = [
         href: '#about',
     },
     {
-        id: "portfolio",
-        name: "Portfolio",
-        href: '#portfolio',
+        id: "project",
+        name: "Projects",
+        href: '#projects',
     },
     {
         id: "contact",

@@ -19,7 +19,7 @@
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <a v-for="item in navigation" :key="item.name"
-              :href="item.href" :class="['text-gray-700 hover:border-b-[#79B4B7] hover:text-gray-900 border-b-transparent', 'transition-all ease-in-out border-b-[3px] px-4 py-2 text-md font-extrabold']">{{ item.name }}</a>
+              :href="item.href" :class="['text-gray-700 hover:border-b-[#0E6CC2] hover:text-gray-900 border-b-transparent', 'transition-all ease-in-out border-b-[3px] px-4 py-2 text-md font-extrabold']">{{ item.name }}</a>
             </div>
           </div>
         </div>

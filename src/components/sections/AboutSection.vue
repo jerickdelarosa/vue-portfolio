@@ -1,9 +1,9 @@
 <template>
     <section id="about" class="bg-inherit antialiased">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
-            <div class="py-16 bg-red">  
+            <div class="py-16">  
                 <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-                    <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+                    <div class="space-y-6 lg:space-y-0 lg:flex md:gap-6 lg:items-center lg:gap-12 text-center lg:text-start">
                         <div class="md:5/12 lg:w-6/12">
                             <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image" loading="lazy" width="" height="" class="rounded-lg">
                         </div>

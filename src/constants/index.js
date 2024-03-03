@@ -4,7 +4,6 @@ import {
     aspnet,
     blazor,
     bootstrap,
-    dotnet,
     laravel,
     sass,
     tailwind,
@@ -111,5 +110,84 @@ export const stack5 = [
     {
         id: "stack5-3",
         icon: sass
+    }
+]
+
+export const projectList = [
+    {
+        id: 'project-1',
+        title: 'Records Management System',
+        description: 'A website application for Philippine Charity Sweepstakes Office to track, process and dispose organizational document transactions.',
+        tech: [
+            {
+                id: 'stack-1',
+                name: 'BLAZOR',
+            },
+            {
+                id: 'stack-2',
+                name: '.NET CORE',
+            },
+            {
+                id: 'stack-3',
+                name: 'MSSQL',
+            }
+        ],
+    },
+    {
+        id: 'project-2',
+        title: 'Charity Services Information System',
+        description: 'A website application for Philippine Charity Sweepstakes Office to track, process and dispose organizational document transactions.',
+        tech: [
+            {
+                id: 'stack-1',
+                name: 'BLAZOR',
+            },
+            {
+                id: 'stack-2',
+                name: '.NET CORE',
+            },
+            {
+                id: 'stack-3',
+                name: 'MSSQL',
+            }
+        ],
+    },
+    {
+        id: 'project-3',
+        title: 'Online Event Registration',
+        description: 'A website application for Philippine Charity Sweepstakes Office to track, process and dispose organizational document transactions.',
+        tech: [
+            {
+                id: 'stack-1',
+                name: 'BLAZOR',
+            },
+            {
+                id: 'stack-2',
+                name: '.NET CORE',
+            },
+            {
+                id: 'stack-3',
+                name: 'MSSQL',
+            }
+        ],
+    },
+    {
+        id: 'project-4',
+        title: 'Document Tracking System',
+        description: 'A website application for Philippine Charity Sweepstakes Office to track, process and dispose organizational document transactions.',
+        tech: [
+            {
+                id: 'stack-1',
+                name: 'VUE 2',
+            },
+            {
+                id: 'stack-2',
+                name: 'LARAVEL',
+            },
+            {
+                id: 'stack-3',
+                name: 'MySQL',
+            }
+        ],
     }
 ]

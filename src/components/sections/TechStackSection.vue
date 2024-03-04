@@ -2,7 +2,7 @@
     <section id="techstack" class="bg-[#FEFBF3] antialiased">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
             <div class="max-w-2xl mx-auto text-center mb-5">
-                <h2 class="text-3xl font-extrabold leading-tight tracking-tight text-gray-700 sm:text-4xl">
+                <h2 class="text-xl text-[#0E6CC2] font-extrabold uppercase">
                     Tech Stack
                 </h2>
             </div>

@@ -136,7 +136,7 @@ export const projectList = [
     {
         id: 'project-2',
         title: 'Charity Services Information System',
-        description: 'A website application for Philippine Charity Sweepstakes Office to track, process and dispose organizational document transactions.',
+        description: 'It is the program for the provision of assistance to male and female individuals with health-related problems seeking financial help, which is embedded on the premise of augmenting their funds, in partnership with government and private hospitals, health facilities, medicine retailers and other partners.',
         tech: [
             {
                 id: 'stack-1',

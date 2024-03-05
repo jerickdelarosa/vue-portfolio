@@ -117,7 +117,7 @@ export const projectList = [
     {
         id: 'project-1',
         title: 'Records Management System',
-        description: 'A website application for Philippine Charity Sweepstakes Office to track, process and dispose organizational document transactions.',
+        description: 'A management system that allows Philippine Charity Sweepstakes Office to process every record and document. The system makes non-confidential papers and other PCSO content searchable, readable, and printable for the general public over the intranet.',
         tech: [
             {
                 id: 'stack-1',
@@ -136,7 +136,7 @@ export const projectList = [
     {
         id: 'project-2',
         title: 'Charity Services Information System',
-        description: 'It is the program for the provision of assistance to male and female individuals with health-related problems seeking financial help, which is embedded on the premise of augmenting their funds, in partnership with government and private hospitals, health facilities, medicine retailers and other partners.',
+        description: 'An information system designed to support people looking for financial assistance for medical problems. It is based on the idea of increasing their funds and is carried out in collaboration with public and private hospitals, clinics, pharmacies, and other partners.',
         tech: [
             {
                 id: 'stack-1',
@@ -174,11 +174,11 @@ export const projectList = [
     {
         id: 'project-4',
         title: 'Document Tracking System',
-        description: 'A website application for Philippine Charity Sweepstakes Office to track, process and dispose organizational document transactions.',
+        description: 'A website application for Bulacan State University that tracks their organizational document transactions.',
         tech: [
             {
                 id: 'stack-1',
-                name: 'VUE 2',
+                name: 'VUE',
             },
             {
                 id: 'stack-2',

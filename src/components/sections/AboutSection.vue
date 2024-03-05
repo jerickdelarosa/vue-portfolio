@@ -9,7 +9,7 @@
                         </div>
                         <div class="md:7/12 lg:w-6/12 md:max-w-[32rem] mx-auto">
                             <h2 class="text-xl text-[#0E6CC2] font-extrabold uppercase">About Me</h2>
-                            <p class="mt-4 text-gray-600">A full-stack developer who has always been passionate about coding. Although I have gained considerable knowledge in this field, I am always eager to learn more, and I believe that keeps me motivated. </p>
+                            <p class="mt-4 text-gray-600">A full-stack web developer who has always been passionate about coding. Although I have gained considerable knowledge in this field, I am always eager to learn more, and I believe that keeps me motivated. </p>
 
                             <div class="mt-6 flex justify-center md:justify-start md:px-12 lg:px-0">
                               <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-6 ">

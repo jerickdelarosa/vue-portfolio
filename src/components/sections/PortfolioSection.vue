@@ -1,5 +1,5 @@
 <template>
-    <section id="projects" class="bg-[#FEFBF3] antialiased">
+    <section id="projects" class="bg-[#f9f9f9] antialiased">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
             <div class="max-w-2xl mx-auto text-center">
                 <h2 class="text-xl text-[#0E6CC2] font-extrabold uppercase">
@@ -19,8 +19,8 @@
                         
                         <div :class="`md:6/12 lg:w-6/12 ${(index %= 2) == 0 ? 'order-2 lg:order-1' : ''}`">
                             <h1 class="font-extrabold uppercase text-2xl mb-5 text-[#2d2e32]">{{ project.title }}</h1>
-                            <p class="mt-4 text-gray-600 md:max-w-[32rem] mx-auto lg:mx-0"> {{ project.description }} </p>
-                            <div class="mt-4 flex justify-center lg:justify-start gap-1">
+                            <p class="mt-2 text-gray-600 md:max-w-[32rem] mx-auto lg:mx-0"> {{ project.description }} </p>
+                            <div class="mt-6 flex justify-center lg:justify-start gap-1">
                                 <span v-for="stack in project.tech" :key="stack.id" class="inline-flex items-center rounded-md bg-[#0E6CC2] px-2 py-1 text-xs text-white font-extrabold tracking-widest">{{ stack.name }}</span>
                             </div>
                         </div>

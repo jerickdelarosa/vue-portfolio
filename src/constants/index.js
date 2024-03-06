@@ -8,7 +8,10 @@ import {
     sass,
     tailwind,
     typescript,
-    vueIcon
+    vueIcon,
+    html,
+    css,
+    javascript
 } from '@/assets/stack-icons/index'
 import { MapPinIcon, EnvelopeOpenIcon, DocumentTextIcon } from '@heroicons/vue/24/outline'
 
@@ -54,18 +57,18 @@ export const footerLinks = [
 export const stack1 = [
     {
         id: "stack-1",
-        icon: vueIcon
+        icon: html
     },
     {
         id: "stack-2",
-        icon: angular
+        icon: css
     }
 ]
 
 export const stack2 = [
     {
         id: "stack2-1",
-        icon: typescript
+        icon: javascript
     },
     {
         id: "stack2-2",
@@ -106,11 +109,11 @@ export const stack5 = [
     },
     {
         id: "stack5-2",
-        icon: bootstrap
+        icon: sass
     },
     {
         id: "stack5-3",
-        icon: sass
+        icon: bootstrap
     }
 ]
 

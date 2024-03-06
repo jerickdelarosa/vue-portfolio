@@ -8,6 +8,9 @@ import sass from './sass.svg'
 import tailwind from './tailwind.svg'
 import typescript from './typescript.svg'
 import vueIcon from './vue.svg'
+import html from './html.svg'
+import css from './css.svg'
+import javascript from './javasript.svg'
 
 export {
     angular,
@@ -19,5 +22,8 @@ export {
     sass,
     tailwind,
     typescript,
-    vueIcon
+    vueIcon,
+    html,
+    css,
+    javascript
 }

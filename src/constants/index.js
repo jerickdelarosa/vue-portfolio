@@ -10,6 +10,7 @@ import {
     typescript,
     vueIcon
 } from '@/assets/stack-icons/index'
+import { MapPinIcon, EnvelopeOpenIcon, DocumentTextIcon } from '@heroicons/vue/24/outline'
 
 export const navLinks = [
     {
@@ -189,5 +190,30 @@ export const projectList = [
                 name: 'MySQL',
             }
         ],
+    }
+
+]
+
+export const contactList = [
+    {
+        id: 1,
+        title: 'Location',
+        description: 'Hagonoy, Bulacan, PH',
+        icon: MapPinIcon,
+        link: 'https://maps.app.goo.gl/PGcCXJhjycSChDia8',
+    },
+    {
+        id: 2,
+        title: 'Mail',
+        description: 'delarosajerick26@gmail.com',
+        icon: EnvelopeOpenIcon,
+        link: 'mailto: delarosajerick26@gmail.com',
+    },
+    {
+        id: 3,
+        title: 'Resume',
+        description: 'Dela Rosa, Jerick T.',
+        icon: DocumentTextIcon,
+        link: '../../../public/downloads/Dela Rosa, Jerick T. - CV 2024.pdf',
     }
 ]

@@ -159,7 +159,7 @@ export const projectList = [
     {
         id: 'project-3',
         title: 'Online Event Registration',
-        description: 'A website application for Philippine Charity Sweepstakes Office to track, process and dispose organizational document transactions.',
+        description: 'A digital platform designed to facilitate the seamless registration process for citizens attending agency-hosted events and activities. Through this system, individuals can easily sign up for events, workshops, and seminars, providing necessary information and preferences.',
         tech: [
             {
                 id: 'stack-1',
@@ -178,7 +178,7 @@ export const projectList = [
     {
         id: 'project-4',
         title: 'Document Tracking System',
-        description: 'A website application for Bulacan State University that tracks their organizational document transactions.',
+        description: 'A tracking system designed to efficiently manage and monitor the flow of important documents within the institution. It streamlines processes such as submission, review, approval, ensuring transparency, accountability, and compliance with relevant regulations.',
         tech: [
             {
                 id: 'stack-1',

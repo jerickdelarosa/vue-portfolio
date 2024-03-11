@@ -1,6 +1,6 @@
 <template>
-    <section id="techstack" class="bg-[#f9f9f9] antialiased">
-        <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+    <section id="techstack" class="bg-inherit antialiased">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 md:py-4 lg:px-6 lg:pt-16">
             <div class="max-w-2xl mx-auto text-center mb-5">
                 <h2 class="text-xl text-[#0E6CC2] font-extrabold uppercase">
                     Tech Stack

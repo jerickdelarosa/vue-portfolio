@@ -1,18 +1,16 @@
 <template>
-    <footer class="bg-gray-700 py-5">
-        <div class="h-[10rem] w-100 flex items-center justify-center">
-            <div class="container md:mx-12 mx-auto flex flex-col items-center justify-center sm:flex-row sm:justify-between gap-6">
+    <footer class="bg-gray-700 py-5 antialiased">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+            <div class="mx-auto md:mx-12 flex flex-col items-center justify-center sm:flex-row sm:justify-between gap-6">
                 <div>
-                    <span class="text-sm text-slate-50 font-semibold">Copyright © 2024. All rights are reserved</span>
+                    <span class="text-md text-slate-50 font-extrabold">Copyright © 2024. All rights are reserved</span>
                 </div>
-            <div>
-            <div>
-                <div class="flex space-x-4 sm:justify-center sm:mt-0">
-                    <a v-for="link in mediaLinks" :key="link.id" :href="link.href" class="cursor-pointer footer--icons" target="_blank">
-                        <img :src="link.icon" :alt="link.id" class="w-7 h-7 object-contain" />
-                    </a>
-                </div>
-            </div>
+                <div>
+                    <div class="flex space-x-4 sm:justify-center sm:mt-0">
+                        <a v-for="link in mediaLinks" :key="link.id" :href="link.href" class="cursor-pointer footer--icons" target="_blank">
+                            <img :src="link.icon" :alt="link.id" class="w-8 h-8 object-contain" />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

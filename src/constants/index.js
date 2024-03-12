@@ -134,6 +134,14 @@ export const projectList = [
             {
                 id: 'stack-3',
                 name: 'MSSQL',
+            },
+            {
+                id: 'stack-4',
+                name: 'MUDBLAZOR',
+            },
+            {
+                id: 'stack-5',
+                name: 'BOOTSTRAP',
             }
         ],
     },
@@ -153,6 +161,14 @@ export const projectList = [
             {
                 id: 'stack-3',
                 name: 'MSSQL',
+            },
+            {
+                id: 'stack-4',
+                name: 'MUDBLAZOR',
+            },
+            {
+                id: 'stack-5',
+                name: 'BOOTSTRAP',
             }
         ],
     },
@@ -172,6 +188,14 @@ export const projectList = [
             {
                 id: 'stack-3',
                 name: 'MSSQL',
+            },
+            {
+                id: 'stack-4',
+                name: 'MUDBLAZOR',
+            },
+            {
+                id: 'stack-5',
+                name: 'BOOTSTRAP',
             }
         ],
     },
@@ -191,6 +215,14 @@ export const projectList = [
             {
                 id: 'stack-3',
                 name: 'MySQL',
+            },
+            {
+                id: 'stack-4',
+                name: 'VUETIFY',
+            },
+            {
+                id: 'stack-5',
+                name: 'BOOTSTRAP',
             }
         ],
     }

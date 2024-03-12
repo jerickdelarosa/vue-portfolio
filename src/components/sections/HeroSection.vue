@@ -11,7 +11,7 @@
                         Hi, I'm Jerick
                     </h1>
                     <p class="mb-8 pl-2 pr-2  lg:px-0 leading-relaxed">
-                        A full stack web developer with passion for web development, based in Bulacan, Philippines
+                        A full-stack web developer with passion for web development, based in Bulacan, Philippines
                     </p>
                     <div class="flex justify-center gap-3">
                         <a v-for="link in mediaLinks" :key="link.id" :href="link.href" class="cursor-pointer media--icons" target="_blank">

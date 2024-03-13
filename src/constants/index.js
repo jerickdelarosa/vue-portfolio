@@ -249,6 +249,6 @@ export const contactList = [
         title: 'Resume',
         description: 'Dela Rosa, Jerick T.',
         icon: DocumentTextIcon,
-        link: '../../../public/downloads/Dela Rosa, Jerick T. - CV 2024.pdf',
+        link: '/downloads/Dela Rosa, Jerick T. - CV 2024.pdf',
     }
 ]

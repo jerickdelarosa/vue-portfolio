@@ -11,7 +11,7 @@
             </div>
 
             <div class="py-16">  
-                <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+                <div class="container mx-auto text-gray-600 md:px-12 xl:px-6">
     
 
                     <div :class="`space-y-6 lg:space-y-0 lg:flex lg:items-center lg:gap-12 ${(projectList.length - 1) > index ? 'mb-20' : ''}  text-center lg:text-start`" v-for="(project, index) in projectList" :key="`project-${index}`">
@@ -24,7 +24,7 @@
                         
                         <div :class="`lg:w-6/12 ${(index %= 2) == 0 ? 'order-2 lg:order-1' : ''}`">
                             <h1 class="font-extrabold uppercase text-2xl mb-5 text-[#2d2e32]">{{ project.title }}</h1>
-                            <p class="mt-2 text-gray-600 md:max-w-[32rem] mx-auto lg:mx-0"> {{ project.description }} </p>
+                            <p class="mt-2 text-gray-600  mx-auto lg:mx-0 text-justify"> {{ project.description }} </p>
                             <div class="mt-6 flex justify-center lg:justify-start gap-1 flex-wrap">
                                 <span v-for="stack in project.tech" :key="stack.id" class="inline-flex items-center rounded-md bg-[#0E6CC2] px-2 py-1 text-xs text-white font-extrabold tracking-widest">{{ stack.name }}</span>
                             </div>

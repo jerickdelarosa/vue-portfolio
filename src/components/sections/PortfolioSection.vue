@@ -15,12 +15,13 @@
     
 
                     <div :class="`space-y-6 lg:space-y-0 lg:flex lg:items-center lg:gap-12 ${(projectList.length - 1) > index ? 'mb-20' : ''}  text-center lg:text-start`" v-for="(project, index) in projectList" :key="`project-${index}`">
-                        <!-- <div :class="`lg:w-6/12 ${(index %= 2) == 0 ? 'order-1 lg:order-2' : ''} flex justify-center bg-slate-200 rounded-lg`">
-                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="project-img" loading="lazy" class="rounded-lg h-auto md:w-[28rem] lg:w-auto">
-                        </div> -->
-                        <div :class="`lg:w-6/12 ${(index %= 2) == 0 ? 'order-1 lg:order-2' : ''} flex justify-center items-center bg-slate-200 rounded-lg h-[12rem] md:h-[20rem]`">
-                            <img :src="uiDesign" alt="project-img" loading="lazy" class="rounded-lg h-60 w-60">
+                        <div :class="`lg:w-6/12 ${(index %= 2) == 0 ? 'order-1 lg:order-2' : ''} flex justify-center bg-slate-200 rounded-lg border`">
+                            <!-- Screen dimension: 1440 x 865 -->
+                            <img :src="project.img" alt="project-img" loading="lazy" class="rounded-lg h-auto md:w-[28rem] lg:w-auto">
                         </div>
+                        <!-- <div :class="`lg:w-6/12 ${(index %= 2) == 0 ? 'order-1 lg:order-2' : ''} flex justify-center items-center bg-slate-200 rounded-lg h-[12rem] md:h-[20rem]`">
+                            <img :src="uiDesign" alt="project-img" loading="lazy" class="rounded-lg h-60 w-60">
+                        </div> -->
                         
                         <div :class="`lg:w-6/12 ${(index %= 2) == 0 ? 'order-2 lg:order-1' : ''}`">
                             <h1 class="font-extrabold uppercase text-2xl mb-5 text-[#2d2e32]">{{ project.title }}</h1>
@@ -37,13 +38,15 @@
 </template>
 
 <script setup>
-import { uiDesign } from '@/assets/icons';
+// import { uiDesign } from '@/assets/icons';
+import { eRegistrationUI, eRegistrationv2} from '@/assets/images';
 
 const projectList = [
     {
         id: 'project-1',
         title: 'Records Management System',
         description: 'A management system that allows Philippine Charity Sweepstakes Office to process every record and document. The system makes non-confidential papers and other PCSO content searchable, readable, and printable for the general public over the intranet.',
+        img: eRegistrationv2,
         tech: [
             {
                 id: 'stack-1',
@@ -71,6 +74,7 @@ const projectList = [
         id: 'project-2',
         title: 'Charity Services Information System',
         description: 'An information system designed to support people looking for financial assistance for medical problems. It is based on the idea of increasing their funds and is carried out in collaboration with public and private hospitals, clinics, pharmacies, and other partners.',
+        img: eRegistrationv2,
         tech: [
             {
                 id: 'stack-1',
@@ -98,6 +102,7 @@ const projectList = [
         id: 'project-3',
         title: 'Online Event Registration',
         description: 'A digital platform designed to facilitate the seamless registration process for citizens attending agency-hosted events and activities. Through this system, individuals can easily sign up for events, workshops, and seminars, providing necessary information and preferences.',
+        img: eRegistrationUI,
         tech: [
             {
                 id: 'stack-1',
@@ -125,6 +130,7 @@ const projectList = [
         id: 'project-4',
         title: 'Document Tracking System',
         description: 'A tracking system designed to efficiently manage and monitor the flow of important documents within the institution. It streamlines processes such as submission, review, approval, ensuring transparency, accountability, and compliance with relevant regulations.',
+        img: eRegistrationUI,
         tech: [
             {
                 id: 'stack-1',

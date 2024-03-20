@@ -29,10 +29,32 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import { contactList } from '@/constants';
+import { MapPinIcon, EnvelopeOpenIcon, DocumentTextIcon } from '@heroicons/vue/24/outline'
 
-const contacts = ref(contactList);
+const contacts = [
+    {
+        id: 1,
+        title: 'Location',
+        description: 'Hagonoy, Bulacan, PH',
+        icon: MapPinIcon,
+        link: 'https://maps.app.goo.gl/PGcCXJhjycSChDia8',
+    },
+    {
+        id: 2,
+        title: 'Mail',
+        description: 'delarosajerick26@gmail.com',
+        icon: EnvelopeOpenIcon,
+        link: 'mailto: delarosajerick26@gmail.com',
+    },
+    {
+        id: 3,
+        title: 'Resume',
+        description: 'Dela Rosa, Jerick T.',
+        icon: DocumentTextIcon,
+        link: '/downloads/Dela Rosa, Jerick T. - CV 2024.pdf',
+    }
+]
+
 </script>
 
 <style lang="scss" scoped>

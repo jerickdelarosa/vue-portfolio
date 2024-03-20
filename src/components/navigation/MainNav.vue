@@ -37,8 +37,28 @@
 <script setup>
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
-import { navLinks } from '@/constants/index'
 
-const navigation = navLinks;
+const navigation = [
+    {
+        id: "home",
+        name: "Home",
+        href: '#home',
+    },
+    {
+        id: "about",
+        name: "About",
+        href: '#about',
+    },
+    {
+        id: "project",
+        name: "Projects",
+        href: '#projects',
+    },
+    {
+        id: "contact",
+        name: "Contact",
+        href: '#contact',
+    },
+];
 
 </script>

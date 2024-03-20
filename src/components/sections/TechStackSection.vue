@@ -45,8 +45,83 @@
 </template>
 
 <script setup>
-import { stack1, stack2, stack3, stack4, stack5 } from '@/constants/index'
+import {
+    angular,
+    aspnet,
+    blazor,
+    bootstrap,
+    laravel,
+    sass,
+    tailwind,
+    typescript,
+    vueIcon,
+    html,
+    css,
+    javascript
+} from '@/assets/stack-icons/index'
 
+const stack1 = [
+    {
+        id: "stack-1",
+        icon: html
+    },
+    {
+        id: "stack-2",
+        icon: css
+    }
+]
+
+const stack2 = [
+    {
+        id: "stack2-1",
+        icon: javascript
+    },
+    {
+        id: "stack2-2",
+        icon: typescript
+    }
+]
+
+const stack3 = [
+    {
+        id: "stack3-1",
+        icon: vueIcon
+    },
+    {
+        id: "stack3-2",
+        icon: angular
+    },
+    {
+        id: "stack3-3",
+        icon: blazor
+    }
+]
+
+const stack4 = [
+    {
+        id: "stack4-1",
+        icon: laravel
+    },
+    {
+        id: "stack4-2",
+        icon: aspnet
+    }
+]
+
+const stack5 = [
+    {
+        id: "stack5-1",
+        icon: tailwind
+    },
+    {
+        id: "stack5-2",
+        icon: sass
+    },
+    {
+        id: "stack5-3",
+        icon: bootstrap
+    }
+]
 </script>
 
 <style lang="scss" scoped>
